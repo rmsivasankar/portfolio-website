@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    color: white;
+    margin: 60px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar ul {
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content: space-around;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar li {
+    list-style-type: none;
+    transition: transform 0.2s ease-in-out;
+}
+.navbar li a {
+    color: white;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    transform: scale(1.11);
+    color: greenyellow;
+}
+.navbar li:hover {
+    color: greenyellow;
+    transform: scale(1.19);
+}
+
+.social {
+    margin: 20px;
+    background: rgb(54, 54, 54);
+    display: inline;
+    position: fixed;
+    border-radius: 30px;
+}
+.social .logo {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.social .logo img {
+    width: 40px;
+    transition: transform .2s ease-in-out;
+}
+.social .logo img:hover {
+    transform: scale(1.1);
+}
+
+.profile {
+    margin: 50px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: black;
+    width: auto 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+
+.image {
+    margin-left: 10rem;
+    width: 500px;
+}
+.image img {
+    border-radius: 50%;
+    padding: 3rem;
+    width: 380px;
+}
+.text {
+    font-family: 'Codec Pro', sans-serif;;
+    margin-right: 10rem;
+    width: 450px;
+    padding: 10px;
+}
+.name {
+    color: #9d9d9d;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name span {
+    color: #ffde59;
+}
+.work {
+    color: #af86ff;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ceh {
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.about {
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 450px;
+    line-height: 24px;
+}
+.cv {
+    font-family:"JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.bio h1 {
+    margin: 50px;
+    font-family: "Hammersmith One", sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.cards {
+    font-family: 'Codec Pro', sans-serif;
+    font-weight: bold;
+    margin: 50px;
+    padding: 50px;
+    width: 100% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50px ;
+    transition: transform .4s ease-in-out;
+}
+
+.card1:hover {
+    transform: scale(1.078);
+}
+
+.card1 .head {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1 .h2 img {
+    width: 60px;
+}
+.card1 .one {
+    width: 200px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-top: 1px solid black;
+}
+.card1 .one a {
+    color: black;
+    text-decoration: none;
+}
+.card1 .one a:hover {
+    color: white;
+}
+
+
+.skills h1 {
+    color: white;
+    font-family: "Hammersmith One", sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sc {
+    width: 100% auto;
+    margin: 50px;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.scards {
+    margin: 50px;
+    background-image: linear-gradient(24deg, rgb(78, 22, 129) 0%, rgb(22, 35, 90) 100%);
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.scards img {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 9px;
+    width: 160px;
+}
+.scards p {
+    color: white;
+    margin-top: 0px;
+    font-family: 'Codec Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.scards:hover {
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 50px 13px;
+}
+
+.contact {
+
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin: 50px;
+}
+.new h1 {
+    font-family: "Hammersmith One", sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+    color: white;
+}
+.contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+  
+.contact li {
+    margin: 0 1rem;
+}
+.contact a p {
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 20px;
+}
+  
+.contact a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+.contact a img { 
+    width: 50px;
+    height: 50px;
+}
+  
+  
+.contact a span {  
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.projects {
+    margin: 50px;
+    padding: 50px;
+    width: 100% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pro1 {
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px rgb(190, 146, 0) solid;
+    opacity: 50%;
+}
+.pc img {
+    width: 300px;
+    border-radius: 30px;
+    height: 500px;
+}
+.pc button {
+    margin: 15px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 1px red solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 15px;
+}
+.pro1:hover {
+    opacity: 100%;
+    box-shadow: rgba(255, 255, 255, 0.8) 0 0 20px 6px;
+}
+.pc button:hover {
+    background-color: rgb(126, 54, 54);
+    color: white;
+    box-shadow: rgba(150, 52, 60, 0.8) 0 0 20px 6px;
+}
+.pc a {
+    text-decoration: none;
+}
+.pc p {
+    color: white;
+    font-family: 'Codec Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        margin: 0;
+        width: auto;
+    }
+
+    .navbar {
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    .social {
+        display: none;
+        margin: 10px;
+    }
+
+    .profile {
+        margin: 20px;
+    }
+
+    .image {
+        margin-left: 5px;
+        width: auto ;
+    }
+
+    .text {
+        margin-right: 5px;
+        width: auto;
+    }
+    .text p {
+        width: 300px;
+    }
+
+    .cards {
+        margin: 20px;
+        padding: 20px;
+        width: auto;
+    }
+
+    .card1 {
+        height: auto;
+    }
+
+    .sc {
+        margin: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .scards {
+        height: auto;
+    }
+
+    .contact {
+        margin: 20px;
+        padding: 1rem;
+    }
+}

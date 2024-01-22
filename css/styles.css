@@ -391,13 +391,12 @@ body{
     }
 
     .sc {
-        margin: 10px;
+        margin: 20px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
     .scards {
-        width: 20%;
         height: auto;
     }
 

@@ -351,6 +351,7 @@ body{
     body {
         margin: 0;
         width: auto;
+        overflow-x: hidden;
     }
 
     .navbar {

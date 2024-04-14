@@ -290,7 +290,7 @@ body{
 }
 
 .projects {
-    margin: 50px;
+    margin: 0;
     padding: 50px;
     width: 100% auto;
     display: flex;

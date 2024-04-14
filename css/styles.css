@@ -53,8 +53,8 @@ body{
 }
 .social .logo {
     padding: 10px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .social .logo img {
     width: 40px;
@@ -78,17 +78,16 @@ body{
 }
 
 .image {
-    margin-left: 10rem;
+    margin-left: 5rem;
     width: 500px;
 }
 .image img {
     border-radius: 50%;
-    padding: 3rem;
     width: 380px;
 }
 .text {
     font-family: 'Codec Pro', sans-serif;;
-    margin-right: 10rem;
+    margin-right: 5rem;
     width: 450px;
     padding: 10px;
 }
@@ -351,7 +350,6 @@ body{
     body {
         margin: 0;
         width: auto;
-        overflow-x: hidden;
     }
 
     .navbar {
@@ -365,16 +363,20 @@ body{
     }
 
     .profile {
-        margin: 20px;
+        margin: 10px;
     }
 
     .image {
-        margin-left: 5px;
-        width: auto ;
+        margin-left: 10px;
+        width: auto;
+        padding: 0;
+    }
+    .image img {
+        width: 300px;
     }
 
     .text {
-        margin-right: 5px;
+        margin-right: 3px;
         width: auto;
     }
     .text p {
